@@ -1,0 +1,12 @@
+<section class="container-fluid features pt-5">
+    <app-title title="Featured manufacturers"></app-title>
+    <div class="row align-items-center   ">
+        <div 
+        *ngFor="let feature of features"
+        class="col-6 col-md mb-5 mb-md-0">
+            <a class="text-center d-block">
+                <img [src]="feature" class="img-fluid" alt="">
+            </a>
+        </div>
+    </div>
+</section>

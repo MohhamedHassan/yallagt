@@ -1,0 +1,46 @@
+.card_two_parent {
+    color:$black2;
+    
+    border-radius: 8px;
+    & > .p-3 {
+        border: 2px solid $light_gray;
+        border-top: none;
+    }
+    img {
+        max-width: 100%;
+    }
+    h3 {
+        font-family: 'Inter' !important;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        .used {
+            font-weight: 400;
+            font-family: 'Inter' !important;
+        }
+    }
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 20px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+    }
+    .price {
+        font-weight: 700;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: $pink;
+        margin-bottom: 5px;
+    }
+    .bottom {
+        margin-bottom: 5px;
+    }
+    small {
+        font-family:SF_Pro_Display_regular
+    }
+}

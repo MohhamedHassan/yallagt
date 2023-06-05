@@ -1,0 +1,10 @@
+<section class="container-fluid new_arrivals pt-5">
+    <app-title title="New arrivals"></app-title>
+    <div class="row">
+        <div 
+        *ngFor="let item of new_arrivals"
+        class="col-sm-6 col-lg-4 col-xl-3  mb-4">
+            <app-card-three [card_tree_Data]='item'></app-card-three>
+        </div>
+    </div>
+</section>

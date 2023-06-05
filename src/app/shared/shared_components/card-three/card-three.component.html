@@ -1,0 +1,22 @@
+<div class="card_three_parent p-3">
+    <div class="first">
+        <span>New</span>
+        <span>
+           <span class="brand"> Brand : </span>
+            <span>{{card_tree_Data.brand}}</span>
+        </span>
+    </div>
+    <div 
+    class="text-center">
+        <img [src]="card_tree_Data.img" alt="" class="img-fluid mb-4">
+        <p class="mb-1">{{card_tree_Data.p1}}</p>
+        <h3 class="mb-3">{{card_tree_Data.h3}}</h3>
+    </div>
+    <div>
+        <p class="mb-1"><span class="eg">EGP</span> <strong> {{card_tree_Data.price1}}</strong></p>
+        <p class="m-0">
+            <del>{{card_tree_Data.price2}}</del>
+            <span class="green">{{card_tree_Data.persentrg}}</span>
+        </p>
+    </div>
+</div>

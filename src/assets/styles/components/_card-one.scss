@@ -1,0 +1,40 @@
+.card_one_parent {
+    display: flex;
+    align-items: center;
+    background: $grey_five;
+    border: 1px solid $light_gray;
+    border-radius: 8px;
+    height: 100%;
+    &>* {
+        flex: 1
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h3 {
+        color: $black;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin: 0;
+        @media  only screen and (max-width:600px) {
+            font-size: 13px;
+        }
+    }
+    p {margin: 0;}
+    p:first-of-type {
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: uppercase;
+        color:$black;
+        margin: 3px 0 -6px;
+        @media  only screen and (max-width:600px) {
+            font-size: 15px;
+        }
+    }
+    p:last-of-type {
+        font-size: 13px;   
+        color: $gray_four;
+    }
+}

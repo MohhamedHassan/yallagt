@@ -1,0 +1,16 @@
+@font-face {
+    font-family: SF_Pro_Display;
+    src: url('/assets/fonts/SFPRODISPLAYMEDIUM.OTF');
+  }
+  @font-face {
+    font-family: SF_Pro_Display_bold;
+    src: url('/assets/fonts/SFPRODISPLAYBOLD.OTF');
+  }
+  @font-face {
+    font-family: SF_Pro_Display_regular;
+    src: url('/assets/fonts/SFPRODISPLAYREGULAR.OTF');
+  }
+  
+  body {
+    font-family: SF_Pro_Display !important;
+  }

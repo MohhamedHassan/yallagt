@@ -1,0 +1,10 @@
+<section class="container-fluid cars_for_rent pt-5">
+    <app-title title="Cars For rent"></app-title>
+    <div class="row">
+        <div 
+        *ngFor="let car of cars_for_rent"
+        class="col-md-6 col-xl-4 mb-3 mb-xl-0">
+            <app-card-one [card_one_Data]="car"></app-card-one>
+        </div>
+    </div>
+</section>

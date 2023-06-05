@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'assets/styles/_variables';
+@import 'assets/styles/_typography';
+@import 'assets/styles/_glopal';
+@import 'assets/styles/components/_navbar';
+@import 'assets/styles/components/_btns';
+@import 'assets/styles/components/header';
+@import 'assets/styles/components/card-one';
+@import 'assets/styles/components/card-two';
+@import 'assets/styles/components/card-three';
+@import 'assets/styles/components/title';
+@import 'assets/styles/components/footer';
