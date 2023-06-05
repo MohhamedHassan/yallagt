@@ -1,0 +1,34 @@
+.card_three_parent {
+    border: 2px solid $grey_sex;
+    color: $black2;
+    .first {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        & > span:first-child {
+            background-color: $green;
+            color:$white;
+            border-radius: 2px;
+            font-family: SF_Pro_Display_regular;
+            padding: 1px 8px;
+        }
+
+    }
+    .text-center {
+        p,h3 {
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+    .brand,.eg {
+        font-family: SF_Pro_Display_regular;
+    }
+    p.m-0 {
+        font-size: small;
+        font-family: SF_Pro_Display_regular;
+    }
+    del {
+        color:$grey_seven;
+        margin-right: 4px;
+    }
+}
