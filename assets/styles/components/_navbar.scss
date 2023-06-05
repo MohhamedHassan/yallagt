@@ -44,6 +44,11 @@ nav {
             &:hover {
                 background-color: $green;
             }
+            @media  only screen and (max-width:992px) {
+                &:hover {
+                    background-color:$black;
+                }
+            }
             a {
                 color:$white;
             }
